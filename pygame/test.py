@@ -72,6 +72,7 @@ while SB == 0:
 
     # 4-1. FPS 설정
     clock.tick(60)
+    
 
     # 4-2. 각종 입력 감지
     for event in pygame.event.get():
@@ -95,6 +96,7 @@ while SB == 0:
 
 
 
+    
     # 4-3. 입력, 시간에 따른 변화
     if left_go == True:
         ss.x -= ss.move
