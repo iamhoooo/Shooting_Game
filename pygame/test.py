@@ -3,7 +3,7 @@ import random
 import time
 
 # 1. 게임 초기화
-pygame.init()
+pygame.init()         
 
 # 2. 게임창 옵션 설정
 size = [400, 900]
