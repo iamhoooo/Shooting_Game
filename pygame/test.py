@@ -23,7 +23,7 @@ class obj:
     def put_img(self, address):
         if address[-3:] == "png":
             self.img = pygame.image.load(address).convert_alpha()
-        else:
+        else:   
             self.img = pygame.image.load(address)
         self.sx, self.sy = self.img.get_size()
     def change_size(self, sx, sy):
