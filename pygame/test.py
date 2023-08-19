@@ -2,7 +2,7 @@ import pygame
 import random
 import time
 
-# 1. 게임 초기화
+# 1. 게임 초기화 하기
 pygame.init()         
 
 # 2. 게임창 옵션 설정
